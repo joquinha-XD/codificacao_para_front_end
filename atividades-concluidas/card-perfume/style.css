@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+    --dark: hsl(158, 36%, 37%);
+    --light: hsl(30, 38%, 92%);
+    --dark-blue: hsl(212, 21%, 14%);
+    --blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --title: 25px;
+    --paragraph: 14px;
+    --ft-family:  'Montserrat', sans-serif;
+    --ft-family-sec: 'Fraunces', serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light);
+}
+h1, p.card-price {
+    font-family: var(--ft-family-sec);
+    text-transform: capitalize;
+}
+p {
+    font-family: var(--ft-family);
+    font-weight: 500;
+}
+.card {
+    display: flex;
+    max-width: 760px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card .card-img {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.card .card-img img {
+    zoom: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card .card-infos {
+    padding: 40px;
+    width: 90%;
+    background-color: white;
+}
+.card .card-infos > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.card-infos .tag {
+    font-size: 13px;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+}
+.card-infos .card-title {
+    font-size: 42px;
+}
+.card-infos .card-description {
+    color: grey;
+    font-size: var(--paragraph);
+    line-height: 25px;
+}
+.card-infos .card-price {
+    color: var(--dark);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.card-infos .card-price .card-price-promo {
+    color: grey;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-family: var(--ft-family);
+    margin-left: 20px;
+}
+.card-infos .btn {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: var(--dark);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-transition: background-color 350ms linear;
+    -ms-transition: background-color 350ms linear;
+    transition: background-color 350ms linear
+}
+.card-infos .btn:hover {
+    background-color: var(--dark-blue);
+    -webkit-transition: background-color 350ms linear;
+    -ms-transition: background-color 350ms linear;
+    transition: background-color 350ms linear
+}
+.card-infos .btn span {
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+@media (max-width: 375px) {
+    .card {
+        flex-direction: column;
+        max-width: 95%;
+        margin: 20px auto 20px auto;
+    }
+    .card .card-img {
+        display: none;
+    }
+    .card .card-img-mobile {
+        display: block;
+        width: 100%;
+        height: 222px;
+    }
+    .card .card-img-mobile img{
+        width: 100%;
+    }
+    .card .card-infos {
+        width: 100%;
+        padding: 20px;
+    }
+    .card-infos .card-title {
+        font-size: 32px;
+    }
+    .card .card-infos > *:not(:last-child) {
+        margin-bottom: 25px;
+    }
+}

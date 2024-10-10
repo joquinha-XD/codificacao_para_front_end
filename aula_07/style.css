@@ -1,0 +1,16 @@
+.container-1{
+    background-color: green;
+    border: 2px solid #4527f1;
+}
+.container-2{
+    background-color: red;
+    border: 2px solid green;
+}
+.caracteristica{
+    color: white;
+    font-weight: bold;
+}
+.caracteristica2{
+    color: white;
+    font-weight: bold;
+}

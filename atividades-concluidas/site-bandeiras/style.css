@@ -1,0 +1,399 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.alagoas {
+  display: flex;
+}
+
+.alagoas-1 {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+}
+
+.alagoas-2 {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  background-image: url(./Brasao_de_Alagoas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alagoas-3 {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+}
+
+.franca {
+  display: flex;
+}
+
+.franca-1 {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+}
+
+.franca-2 {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.franca-3 {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+}
+
+.italia {
+  display: flex;
+}
+
+.italia-1 {
+  width: 200px;
+  height: 400px;
+  background-color: green;
+}
+
+.italia-2 {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.italia-3 {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+}
+
+.alemanha {
+  display: block;
+}
+
+.alemanha-1 {
+  width: 600px;
+  height: 150px;
+  background-color: black;
+}
+
+.alemanha-2 {
+  width: 600px;
+  height: 150px;
+  background-color: red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.alemanha-3 {
+  width: 600px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.argentina {
+  display: block;
+}
+
+.argentina-1 {
+  width: 600px;
+  height: 150px;
+  background-color: #75aadb;
+}
+
+.argentina-2 {
+  width: 600px;
+  height: 150px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./brasao-argentina.png);
+}
+
+.argentina-3 {
+  width: 600px;
+  height: 150px;
+  background-color: #75aadb;
+}
+
+.nigeria {
+  display: flex;
+}
+
+.nigeria-1 {
+  width: 200px;
+  height: 400px;
+  background-color: #1b7339;
+}
+
+.nigeria-2 {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nigeria-3 {
+  width: 200px;
+  height: 400px;
+  background-color: #1b7339;
+}
+
+.holanda {
+  display: block;
+}
+
+.holanda-1 {
+  width: 600px;
+  height: 150px;
+  background-color: red;
+}
+
+.holanda-2 {
+  width: 600px;
+  height: 150px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.holanda-3 {
+  width: 600px;
+  height: 150px;
+  background-color: blue;
+}
+
+.austria {
+  display: block;
+}
+
+.austria-1 {
+  width: 600px;
+  height: 150px;
+  background-color: red;
+}
+
+.austria-2 {
+  width: 600px;
+  height: 150px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./brasao-autria.png);
+}
+
+.austria-3 {
+  width: 600px;
+  height: 150px;
+  background-color: red;
+}
+
+.suecia {
+  display: block;
+}
+
+.suecia-1 {
+  width: 600px;
+  height: 450px;
+  background-color: #006aa7;
+  position: relative;
+}
+
+.suecia-2 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 450px;
+  background-color: #fecc02;
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+}
+
+.suecia-3 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  background-color: #fecc02;
+  position: relative;
+  bottom: 700px;
+  left: 0px;
+}
+
+.dinamarca {
+  display: block;
+}
+
+.dinamarca-1 {
+  width: 600px;
+  height: 450px;
+  background-color: #c8102e;
+  position: relative;
+}
+
+.dinamarca-2 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 450px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+}
+
+.dinamarca-3 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 700px;
+  left: 0px;
+}
+
+.noruega {
+  display: block;
+}
+
+.noruega-1 {
+  width: 600px;
+  height: 450px;
+  background-color: #ba0c2f;
+  position: relative;
+}
+
+.noruega-2 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 450px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+}
+
+.noruega-3 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 70px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 700px;
+  left: 0px;
+}
+
+.noruega-4 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 450px;
+  background-color: #00205b;
+  position: relative;
+  bottom: 970px;
+  left: 210px;
+}
+
+.noruega-5 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  background-color: #00205b;
+  position: relative;
+  bottom: 1210px;
+  left: 0px;
+}
+
+.finlandia {
+  display: block;
+}
+
+.finlandia-1 {
+  border: solid black 5px;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  position: relative;
+}
+
+.finlandia-2 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 450px;
+  background-color: #002f6c;
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+}
+
+.finlandia-3 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 80px;
+  background-color: #002f6c;
+  position: relative;
+  bottom: 700px;
+  left: 0px;
+}
+
+.japao {
+  display: block;
+}
+
+.japao-1 {
+  border: solid black 5px;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  position: relative;
+}
+
+.japao-2 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 120px;
+  height: 120px;
+  background-color: #bc002d;
+  position: relative;
+  bottom: 285px;
+  left: 250px;
+  border-radius: 100%;
+}

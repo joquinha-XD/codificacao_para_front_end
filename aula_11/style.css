@@ -1,0 +1,21 @@
+h1{
+    display: block;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+p{
+    background-color: burlywood;
+}
+.span{
+    background-color: cadetblue;
+}
+.span2{
+    background-color: yellowgreen;
+}
+a{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: darkolivegreen;
+}

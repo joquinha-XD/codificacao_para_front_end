@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 2000px;
+}
+
+.pai{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+.navbar{
+    height: 50px;
+    background-color: cadetblue;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+.container-01{
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.container-02{
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+p{
+    display: inline;
+}

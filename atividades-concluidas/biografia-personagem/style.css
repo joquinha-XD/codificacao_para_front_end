@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+div{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+.div1{
+    background-color: lightsteelblue;
+    font-weight: bold;
+    font-size: 60px;
+}
+body{
+    background-color: white;
+}
+p{
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+table{
+    font-size: 30px;
+}
+.div2{
+    background-color: lightsteelblue;
+    font-size: 60px;
+    font-weight: bold;
+}

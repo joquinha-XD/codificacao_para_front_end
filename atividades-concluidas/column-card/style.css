@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs)*/
+    --Very-light-gray: hsl(0, 0%, 95%); /*(background, headings, buttons)*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 800px;
+}
+
+.sedans{
+    background-color: var(--Bright-orange);
+    padding: 40px;
+}
+
+.suvs{
+    background-color: var(--Dark-cyan);
+    padding: 40px;
+}
+
+.luxury{
+    background-color: var(--Very-dark-cyan);
+    padding: 40px;
+}
+
+.imagem{
+    margin: 20px 0;
+}
+
+.titulo{
+    margin: 20px 0;
+    color: var(--Very-light-gray);
+    font-size: 3em;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.desc{
+    margin: 10px 0;
+    color: var(--Transparent-white);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    margin: 20px 0;
+    padding: 13px 20px;
+    background-color: var(--Very-light-gray);
+    border-radius: 25px;
+    border: none;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.sedans .btn{
+    color: var(--Bright-orange);
+}
+
+.suvs .btn{
+    color: var(--Dark-cyan);
+}
+
+.luxury .btn{
+    color: var(--Very-dark-cyan);
+}
+
+@media(max-width: 800px){
+
+    body{
+        align-items: center;
+    }
+
+    .principal-conteiner{
+        flex-direction: column;
+        max-width: 350px;
+        margin-top: 400px;
+    }
+}
+
+.sedans .btn:hover{
+    color: var(--Very-light-gray);
+    background-color: var(--Bright-orange);
+    border: 3px solid var(--Very-light-gray);
+}
+
+.suvs .btn:hover{
+    color: var(--Very-light-gray);
+    background-color: var(--Dark-cyan);
+    border: 3px solid var(--Very-light-gray);
+}
+
+.luxury .btn:hover{
+    color: var(--Very-light-gray);
+    background-color: var(--Very-dark-cyan);
+    border: 3px solid var(--Very-light-gray);
+}

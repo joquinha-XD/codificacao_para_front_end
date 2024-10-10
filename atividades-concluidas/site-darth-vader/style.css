@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.img-01{
+    width: 100%;
+}
+.navbar{
+    background-color: #739a9c;
+}
+.navbar ul{
+    display: flex;
+    margin: 0;
+    padding: 10px; /* Aumenta o interno da caixa */
+}
+.link{
+    margin-right: 50px;
+    list-style: none; /* Tira estilo da lista */
+    text-transform: uppercase; /* Deixa letra maiúscula */
+}
+a{
+    color: white; /*Muda cor do texto para branco */
+    font-weight: bold; /* Deixa texto em negrito */
+    cursor: pointer;
+    text-decoration: none;
+}
+h1, p, footer{
+    color: white;
+}
+.sobre{
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+}

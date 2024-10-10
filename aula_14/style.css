@@ -1,0 +1,21 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:active{
+    background-color: green;
+}
