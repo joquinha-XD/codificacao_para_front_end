@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Cadastro - Facebook</title>
+</head>
+<body>
+
+    <div class="conteiner">
+        <h1>Criar uma conta nova</h1>
+        <p>É rápido e fácil</p>
+        <form class="formulario">
+            <label for="nome-proprio">Nome próprio</label>
+            <input id="nome-proprio" type="text">
+
+            <label for="apelido">Apelido</label>
+            <input id="apelido" type="text">
+
+            <label for="nascimento">Data de Nascimento</label>
+            <input id="nascimento" type="date">
+
+            <label for="genero">Gênero</label>
+            <select name="genero" id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro"></option>
+            </select>
+            
+            <label for="email">Email</label>
+            <input id="email" type="text">
+
+            <label for="senha">Senha</label>
+            <input id="senha" type="password">
+
+            <button type="button" onclick="Cadastrar()">Cadastrar</button>
+
+            <!-- <select name="" id="nascimento">
+                <option value="">jan</option>
+                <option value="">fev</option>
+                <option value="">mar</option>
+                <option value="">abr</option>
+                <option value="">mai</option>
+                <option value="">jun</option>
+                <option value="">jul</option>
+                <option value="">ago</option>
+                <option value="">set</option>
+                <option value="">out</option>
+                <option value="">nov</option>
+                <option value="">dez</option>
+            </select>
+            <select name="" id="dia">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select> -->
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
