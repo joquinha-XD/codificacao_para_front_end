@@ -15,44 +15,44 @@ function Cadastrar() {
     const senhaValue = senha.value
 
     if(nomeProprioValue === ""){
-        nomeProprio.style.borderColor = "red"
+        nomeProprio.classList.add("erro")
         return
     } else {
-        nomeProprio.style.borderColor = ""
+        nomeProprio.classList.remove("erro")
     }
 
     if(apelidoValue === ""){
-        apelido.style.borderColor = "red"
+        apelido.classList.add("erro")
         return
     } else {
-        apelido.style.borderColor = ""
+        apelido.classList.remove("erro")
     }
 
     if(nascimentoValue === ""){
-        nascimento.style.borderColor = "red"
+        nascimento.classList.add("erro")
         return
     } else {
-        nascimento.style.borderColor = ""
+        nascimento.classList.remove("erro")
     }
 
     if(generoValue === ""){
-        genero.style.borderColor = "red"
+        genero.classList.add("erro")
         return
     } else {
-        genero.style.borderColor = ""
+        genero.classList.remove("erro")
     }
 
     if(emailValue === ""){
-        email.style.borderColor = "red"
+        email.classList.add("erro")
         return
     } else {
-        email.style.borderColor = ""
+        email.classList.remove("erro")
     }
 
     if(senhaValue === ""){
-        senha.style.borderColor = "red"
+        senha.classList.add("erro")
         return
     } else {
-        senha.style.borderColor = ""
+        senha.classList.remove("erro")
     }
 }

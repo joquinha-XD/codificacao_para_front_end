@@ -1,0 +1,74 @@
+:root{
+    --Green-200: hsl(148, 38%, 91%);
+    --Green-600: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --Grey-500: hsl(186, 15%, 59%);
+    --Grey-900: hsl(187, 24%, 22%);
+}
+
+body{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Green-200);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.botao{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+}
+
+.erro{
+    border-color: red;
+}
+
+
+.message{
+    color: white;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.conteiner, .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 700px;
+    width: 500px;
+}
+
+input{
+    border: 1px solid var(--Grey-500);
+    border-radius: 4px;
+    height: 25px;
+    width: 200px;
+}
+
+#first-name, #last-name{
+    display: inline;
+}
+
+.first-last{
+    margin: 0;
+    display: flex;
+}
