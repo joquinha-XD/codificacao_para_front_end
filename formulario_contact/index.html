@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <main class="conteiner">
+      <h1 class="title">Contact Us</h1>
+      <form>
+        <div class="group-name">
+          <div class="first-child">
+            <label for="fname" class="block">First Name *</label>
+            <input type="text" id="fname"/>
+            <p class="message1-error"></p>
+          </div>
+          <div>
+            <label for="lname" class="block">Last Name *</label>
+            <input type="text" id="lname"/>
+            <p class="message2-error"></p>
+          </div>
+        </div>
+
+        <div class="group-email">
+            <label for="email" class="block">Email Address *</label>
+            <input type="email" id="email"/>
+            <p class="message3-error"></p>
+        </div>
+        
+        <fieldset id="query">
+          <legend>Query Type *</legend>
+
+          <span>
+            <input type="radio" id="general" name="query"/>
+            <label for="general">General Enquiry</label>
+          </span>
+          <span>
+            <input type="radio" id="support" name="query"/>
+            <label for="support">Support Request</label>
+          </span>
+          <p class="message4-error"></p>
+        </fieldset>
+
+        <div class="group-message">
+            <label for="message" class="block">Message *</label>
+            <textarea id="message"></textarea>
+            <p class="message5-error"></p>
+        </div>
+        
+
+        <div>
+          <input type="checkbox" id="term"/>
+          <label for="term">I consent to being contacted by the team *</label>
+          <p class="message6-error"></p>
+        </div>
+
+        <button type="button" onclick="validator()">Submit</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

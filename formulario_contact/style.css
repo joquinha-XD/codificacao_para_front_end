@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Young+Serif&display=swap');
+
+:root{
+    --Green-200: hsl(148, 38%, 91%);
+    --Green-600: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500: hsl(186, 15%, 59%);
+    --Grey-900: hsl(187, 24%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Green-200);
+}
+
+.conteiner{
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.block{
+    display: block;
+}
+
+.group-name{
+    display: flex;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea{
+    border: 1px solid var(--Grey-500);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.first-child{
+    margin-right: 20px;
+}
+
+fieldset{
+    border: none;
+}
+
+.group-name,
+.group-email,
+.group-message{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: var(--Green-600);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.error{
+    border: 1px solid var(--Red) !important;
+}
+
+.message1-error,
+.message2-error,
+.message3-error,
+.message4-error,
+.message5-error,
+.message6-error{
+    color: red;
+}
+
+.group-message{
+    margin-top: 10px;
+}
